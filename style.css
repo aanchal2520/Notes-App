@@ -8,7 +8,6 @@
 
 body {
     background-color: #4EB1BA;
-
 }
 
 li {
@@ -28,4 +27,39 @@ li {
 hr {
     background-color: #E9E9E9;
     height: 6px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    margin-top: 40px;
+    border-radius: 13px;
+    font-size: 20px;
+    outline: none;
+    padding: 13px;
+    font-family: 'Roboto Mono', monospace;
+    border: 2px solid white;
+    word-spacing: -3px;
+
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #05386b;
+    /* color: #659DBD; */
+    color: #5cdb95;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 13px;
+    font-size: 19px;
+    font-weight: 800;
+    border: 2px solid white;
 }
