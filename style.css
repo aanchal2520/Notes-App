@@ -63,3 +63,14 @@ textarea {
     font-weight: 800;
     border: 2px solid white;
 }
+
+.note {
+    width: 400px;
+    height: 300px;
+    background: white;
+    border-radius: 14px;
+}
+
+/* .noteTitle {
+
+} */
